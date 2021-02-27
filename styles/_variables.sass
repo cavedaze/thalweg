@@ -1,0 +1,47 @@
+// Google Fonts
+$body-font: "Crimson Text", serif
+$header-font: "Lato", sans-serif
+
+// Colors
+$Black: #262626
+$Orange: #F27B35
+$Yellow: #FCA521
+$OffWhite: #FAE3BA
+$White: #FFFFFF
+$Pink: #e07f79
+$Red: #F1523E
+$Purple: #736a7b
+$darkBlue: #18298C
+$lightGreen: #04BF8A
+$darkGreen: #025952
+$transparentBlack: rgba($Black, 0.5)
+$transparentWhite: rgba($White, 0.8)
+$Gradient: linear-gradient(20deg, $Purple, $Black)
+$transparentGreen: rgba($darkGreen, 0.8)
+$transparentPurple: rgba($Purple, 0.8)
+$Shadow: 0 0 10px rgba($Black, 0.5)
+
+// Transitions
+$transitionTime: 0.3s
+
+// Mixins
+=IconFont
+	font-size: 2rem
+	text-decoration: none
+
+=LinkHoverGrow
+	a
+		transition: all $transitionTime
+
+		&:hover
+			transform: scale(1.2)
+
+=gridCenter
+	display: grid
+	align-content: center
+	justify-content: center
+
+=flexCenter
+	display: flex
+	align-items: center
+	justify-content: center

@@ -1,0 +1,157 @@
+<!-- Built by Jon Murphy // cavedaze@gmail.com -->
+<!-- Thalweg copyright 2019. All Rights Reserved. -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Thalweg</title>
+
+  <meta name="description" content="Thalweg (pronounced /'tälˌveɡ/) is a virtual bulletin board for new works by Hagan Knauth aka Mood Tattooed, with occasional contributions from friends and collaborators.">
+
+  <meta name="keywords" content="thalweg, hagan, knauth, mood tattooed, ny, new york, nyc, new york city, artists, music, folk, indie, collaboration,">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- Mobile Viewport Specs -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon
+  <link rel="icon" type="image/png" href="PATH" /> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato&display=swap" rel="stylesheet">
+
+  <!-- Google SEO Verification -->
+  <!-- Insert Google SEO Verification here -->
+</head>
+
+<body>
+
+  <div class="grid">
+    <!-- About Section -->
+    <div class="about" id="aboutSection">
+      <div class="about-content">
+        <ul>
+          <li>
+            <h3>Thalweg</h3> (pronounced /'tälˌveg/ ) is a virtual bulletin board for new works by Hagan Knauth aka Mood Tattooed, with occasional contributions from friends and collaborators.
+          </li>
+        </ul>
+      </div>
+      <div class="social-container">
+        <ul>
+          <li><a href="https://www.instagram.com/thalweg_sounds/" class="th th-instagram" target="_blank"></a></li>
+        </ul>
+      </div>
+      <div class="nav-container">
+        <ul>
+          <li><a href="#">Artists</a></li>
+          <li><i class="th th-thalweg-logo" title="Thalweg logo"></i></li>
+          <li>Admins</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Featured Content Info -->
+    <div class="main-info" id="mainInfo">
+      <img src="./assets/no-compromise.png" title="No Compromise">
+      <ul class="main-info-header">
+        <li>
+          <h1>by Mood Tattooed</h1>
+        </li>
+      </ul>
+      <ul class="main-info-description">
+        <li>
+          <h3>Written and recorded in</h3>
+          <p>New York State by Hagan Knauth, with the exception of live percussion performed and recorded by King Garbage, in Asheville, NC.</p>
+        </li>
+        <li>
+          <h3>Mixed by</h3>
+          <p>Hagan Knauth & Rich Morales</p>
+        </li>
+        <li>
+          <h3>Mastered by</h3>
+          <p>Rich Morales at SFA with assistance from James Crawford</p>
+        </li>
+        <li>
+          <h3>Video created by</h3>
+          <p>Hagan Knauth, Matthew Sullivan, Margaret Pinto, Colin Weeks, and Flannery Winchester</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Artists Section -->
+    <div class="artists" id="artistsSection">
+      <div class="artists-content">
+        <ul>
+          <li>
+            <div class="header">
+              Artists who have contributed to Thalweg.
+            </div>
+          </li>
+          <li>
+            <div class="overlay" onclick="openEye()" title="Mood Tattooed">
+              <div class="artist-name">
+                Mood Tattooed
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="artist-name">
+                hello Georgie
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="artist-name">
+                hello Georgie
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="go-back" title="Go Back">
+        <a onclick="closeArtists()" class="th th-angle-left"></a>
+      </div>
+    </div>
+
+    <!-- Nav Icons -->
+    <div class="open-about" id="openAbout" title="What is this?">
+      <a onclick="openAbout()" class="th th-info-large"></a>
+    </div>
+    <div class="close-about" id="closeAbout" title="Close">
+      <a onclick="closeAbout()" class="th th-times"></a>
+    </div>
+    <div class="open-eye" id="openEye" title="Open Your Eyes">
+      <a onclick="openEye()" class="th th-eye"></a>
+    </div>
+    <div class="close-eye" id="closeEye" title="Close Your Eyes">
+      <a onclick="closeEye()" class="th th-eye-slash"></a>
+    </div>
+
+    <!-- Main Content -->
+    <div id="bg-blur">
+      <div class="main-content" id="mainContent">
+        <div class="video-container">
+          <div class="video-border">
+            <iframe src="https://www.youtube.com/embed/cl1c7ooxJB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Font Awesome Icon Library -->
+  <script src="https://use.fortawesome.com/48c3e986.js"></script>
+
+  <!-- Thalweg Javascript -->
+  <script type="text/javascript" src="js/thalweg.js"></script>
+
+</body>
+
+</html>
